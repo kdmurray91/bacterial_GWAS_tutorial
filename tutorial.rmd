@@ -96,9 +96,11 @@ Host <bugwas>
 
 Then, back on the EC2 instance, use your favourite text editer to create a list of the paths to each of the following dependencies in the following tab-delimited format, calling it ```dependencies.txt```.
 
+```
 name  path
 GEMMA  ~/bugwas/gemma/gemma.0.93b
 blastn /usr/bin/blastn
+```
 
 
 Files provided:
